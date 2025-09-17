@@ -1,0 +1,69 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.2
+
+# Image Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+scikit-image==0.21.0
+numpy==1.24.4
+matplotlib==3.7.3
+
+# Machine Learning & Computer Vision
+torch==2.1.0
+torchvision==0.16.0
+scipy==1.11.3
+pycocotools==2.0.7
+pycocoevalcap==1.2
+
+# Database & Storage
+pymongo==4.6.0
+google-cloud-storage==2.13.0
+boto3==1.28.44
+
+# Utils
+tqdm==4.66.1
+requests==2.31.0
+httpx==0.25.1
+python-jose==3.3.0
+passlib==1.7.4
+
+# Development & Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.9.1
+flake8==6.1.0
+mypy==1.5.1
+
+# CORS
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+
+# Additional Dependencies
+pandas==2.1.1
+h5py==3.9.0
+seaborn==0.13.0
+
+# For YOLO and SAM2 specific requirements
+pyyaml==6.0.1
+pycocotools==2.0.7
+
+# For Google Cloud Integration
+google-auth==2.22.0
+google-auth-oauthlib==1.1.0
+google-api-python-client==2.97.0
+
+# For FastAPI CORS
+fastapi-cors==0.0.6
+
+# For MongoDB integration
+dnspython==2.4.2
+
+# For data validation
+pydantic-settings==2.1.0
+
+# For async database operations
+motor==3.3.2
